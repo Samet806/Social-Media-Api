@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-//get conversation of user
+//get conversations of user
 
 router.get("/:userId", async (req, res) => {
   try {
